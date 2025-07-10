@@ -1,1 +1,122 @@
+VERSION="2.0.0"
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+ACCOUNTS=[
+"GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI",
+"GAYGQU547R4HEWWUQR3RBLV5YMO2AS6VBKDO65WIKYCPWFTRXUSFEXYV",
+]
+
+[DOCUMENTATION]
+ORG_NAME="AI^TOKENS"
+ORG_URL="https://aitokens.github.io/"
+ORG_DESCRIPTION="Providing Artificial Intelligence Tokens on the Stellar Network Platform"
+
+[[CURRENCIES]]
+code="AiTokens"
+issuer="GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI"
+display_decimals=7
+name="AiTokens"
+desc="AiTokens can be integrated into trading platforms, enabling automated trades based on AI-generated market predictions."
+conditions="Fixed Supply"
+image="https://aitokens.github.io/images/AiTokens.png"
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="BTCFolio"
+issuer="GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI"
+display_decimals=7
+name="BTCFolio"
+desc="**BTCFolio** is a user-friendly portfolio management tool designed specifically for cryptocurrency enthusiasts and investors. It allows users to easily track, analyze, and manage their digital assets in real-time. With features like automated transaction tracking, performance analytics, and market insights, BTCFolio empowers users to make informed investment decisions. Whether you're a newcomer or a seasoned trader, BTCFolio simplifies the complexities of crypto investing, helping you stay organized and maximize your returns."
+conditions="Fixed Supply"
+image="https://aitokens.github.io/images/BTCFolio.png"
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="BitSecure"
+issuer="GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI"
+display_decimals=7
+name="BitSecure"
+desc="**BitSecure** is a comprehensive cybersecurity solution tailored for cryptocurrency users and investors. Designed to protect digital assets from threats like hacking, phishing, and fraud, BitSecure offers advanced security features such as multi-factor authentication, encrypted storage, and real-time alerts. With an intuitive interface and robust protection mechanisms, BitSecure ensures peace of mind while managing your crypto portfolio, empowering users to trade and invest with confidence in an increasingly complex digital landscape."
+conditions="Fixed Supply"
+image="https://aitokens.github.io/images/BitSecure.png"
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="BlockReward"
+issuer="GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI"
+display_decimals=7
+name="BlockReward"
+desc="Built on blockchain technology, AiTokens provide users with access to a range of DeFi services such as lending, borrowing, and staking, empowering them to maximize their financial opportunities."
+conditions="Fixed Supply"
+image="https://aitokens.github.io/images/BlockReward.png"
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="ChainLinker"
+issuer="GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI"
+display_decimals=7
+name="ChainLinker"
+desc="**AI Integration**: AiTokens utilize advanced machine learning algorithms to offer smart analytics, predictive modeling, and automated decision-making processes that enhance user experience and operational efficiency."
+conditions="Fixed Supply"
+image="https://aitokens.github.io/images/ChainLinker.png"
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="Decentralize"
+issuer="GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI"
+display_decimals=7
+name="Decentralize"
+desc="**Enhanced Security**: Utilizing the capabilities of blockchain ensures that transactions are secure, transparent, and tamper-proof, fostering trust among users."
+conditions="Fixed Supply"
+image="https://aitokens.github.io/images/Decentralize.png"
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="HashPower"
+issuer="GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI"
+display_decimals=7
+name="HashPower"
+desc="**Community Governance**: AiTokens allow holders to participate in governance decisions, influencing the future development of the ecosystem based on collective input."
+conditions="Fixed Supply"
+image="https://aitokens.github.io/images/HashPower.png"
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="LedgerAsset"
+issuer="GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI"
+display_decimals=7
+name="LedgerAsset"
+desc="**Cross-Industry Applications**: Designed to cater to various sectors, including finance, healthcare, and supply chain management, AiTokens facilitate AI-driven innovations tailored to specific industry needs."
+conditions="Fixed Supply"
+image="https://aitokens.github.io/images/LedgerAsset.png"
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="MintCoin"
+issuer="GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI"
+display_decimals=7
+name="MintCoin"
+desc="**Automated Trading**: AiTokens can be integrated into trading platforms, enabling automated trades based on AI-generated market predictions."
+conditions="Fixed Supply"
+image="https://aitokens.github.io/images/MintCoin.png"
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="PeerToPeer"
+issuer="GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI"
+display_decimals=7
+name="PeerToPeer"
+desc="**Data Analysis**: Users can harness the power of AI to analyze large datasets and gain valuable insights that drive strategic decisions."
+conditions="Fixed Supply"
+image="https://aitokens.github.io/images/PeerToPeer.png"
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="SatoshiShare"
+issuer="GAWYVGYAPKQTDCFLLHR5EQL7NARZP3A76LAKSHC6COKKL7PXH6C7WTAI"
+display_decimals=7
+name="SatoshiShare"
+desc="**SatoshiShare** are innovative digital assets designed to leverage the power of artificial intelligence and blockchain technology for various applications across industries. These tokens enable users to access AI-driven solutions, facilitate efficient transactions, and participate in a decentralized ecosystem."
+conditions="Fixed Supply"
+image="https://aitokens.github.io/images/SatoshiShare.png"
+is_asset_anchored=false
