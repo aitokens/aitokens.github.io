@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tokens - Stellar Blockchain</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FFD700',
+                        secondary: '#1A1A1A'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        body {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            min-height: 100vh;
+        }
+        .token-glow {
+            animation: tokenGlow 3s ease-in-out infinite;
+        }
+        @keyframes tokenGlow {
+            0%, 100% { filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.3)); }
+            50% { filter: drop-shadow(0 0 30px rgba(255, 215, 0, 0.5)); }
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="text-white">
+    <div class="container mx-auto px-4 py-12 max-w-4xl">
+        <div class="flex flex-col items-center justify-center space-y-8">
+            <div class="token-container relative">
+                <div class="token-images flex items-center justify-center">
+                    <img src="https://aitokens.github.io/images/logo.png" alt="AI Token" class="w-full max-w-2xl token-glow hover-scale">
+                </div>
+            </div>
+            
+            <div class="text-center space-y-6">
+                <h1 class="text-4xl font-bold bg-gradient-to-r from-yellow-400 via-primary to-yellow-500 bg-clip-text text-transparent">
+                    AI Tokens on Stellar
+                </h1>
+                <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+                    Experience the future of AI-powered digital assets on the Stellar blockchain. Our tokens represent the convergence of artificial intelligence and decentralized finance.
+                </p>
+            </div>
+
+            <div class="mt-8">
+                <a href="https://stellarterm.com" target="_blank" class="inline-flex items-center px-8 py-4 bg-primary text-secondary font-semibold text-lg !rounded-button hover:bg-opacity-90 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    <i class="ri-rocket-line mr-2"></i>
+                    Discover on StellarTerm
+                </a>
+            </div>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+                <div class="bg-black bg-opacity-30 p-6 rounded-lg backdrop-blur-sm">
+                    <div class="text-center">
+                        <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
+                            <i class="ri-shield-check-line text-primary text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Secure</h3>
+                        <p class="text-gray-400">Built on Stellar's proven blockchain technology</p>
+                    </div>
+                </div>
+                <div class="bg-black bg-opacity-30 p-6 rounded-lg backdrop-blur-sm">
+                    <div class="text-center">
+                        <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
+                            <i class="ri-flash-line text-primary text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Fast</h3>
+                        <p class="text-gray-400">Lightning-quick transactions with minimal fees</p>
+                    </div>
+                </div>
+                <div class="bg-black bg-opacity-30 p-6 rounded-lg backdrop-blur-sm">
+                    <div class="text-center">
+                        <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
+                            <i class="ri-global-line text-primary text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Global</h3>
+                        <p class="text-gray-400">Accessible worldwide through Stellar network</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
